@@ -62,7 +62,7 @@ main ul{
 }
 footer{
     background-color: #2978A0;
-    color: #CDFFF9;
+    color: white;
     padding: 1.5rem 0;
     border-radius: 1rem;
     box-shadow: 0 0 1rem .2rem rgba(0,0,0,0.5);
@@ -74,6 +74,6 @@ footer{
 footer p {
     text-align: center;
     font-size: 1.1rem;
-    color: #CDFFF9;
+    color: white;
     
 }
