@@ -29,8 +29,12 @@ header{
     margin: 2rem auto;
 }
 
+header h1{
+    font-size: 1.5rem;
+}
+
 picture img{
-    width:150px;
+    width:100px;
     height:auto;
     border-radius: .5rem;
     border: 2px solid #CDFFF9;
@@ -44,6 +48,7 @@ main h2{
     color: #0E0E52;
     position: relative;
     margin-bottom: .8rem;
+    font-size: 1.2rem;
 }
 
 main h2::after{
@@ -57,8 +62,12 @@ main h2::after{
 }
 
 main ul{
-    margin-left: 3rem;
+    margin-left: 1rem;
     line-height: 1.6rem;
+}
+
+main ul li{
+    font-size: .8rem;
 }
 footer{
     background-color: #2978A0;
@@ -73,7 +82,8 @@ footer{
 
 footer p {
     text-align: center;
-    font-size: 1.1rem;
+
+    font-size: 0.8rem; 
     color: white;
     
 }

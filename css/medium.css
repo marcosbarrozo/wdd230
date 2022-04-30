@@ -1,0 +1,23 @@
+@media (min-width: 32.5em){
+    header h1{
+        font-size: 2.2rem;
+    }
+
+    picture img{
+        width: 150px;
+    }
+
+    main h2 {
+        font-size: 1.5rem;
+    }
+
+    footer p {
+        font-size: 1.1rem;  
+    }
+    main ul {
+        margin-left: 3rem;
+    }
+    main ul li {
+        font-size: 1.1rem;
+    }
+}

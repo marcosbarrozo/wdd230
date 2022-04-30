@@ -1,0 +1,13 @@
+@media (min-width: 37.85rem){
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    section:last-child{
+        grid-column: 1/3;
+    
+    }
+
+
+}
