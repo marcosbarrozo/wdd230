@@ -1,0 +1,44 @@
+@media only screen and (min-width: 35rem){
+    nav button{
+        display: none;
+    }
+    nav ul#primaryNav{
+        display: flex;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,.3);
+        justify-content: space-evenly;
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,.3);
+    }
+    .logo-container img{
+        max-width: 150px;
+        width: 100%;
+        height: auto;
+    }
+    .logo-container h1{
+        font-size: 1.8rem;
+    }
+
+    main{
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        'hero hero'
+        'news news'
+        'spot1 spot2'
+        'join join'
+        'event weather';
+    }
+    footer{
+        grid-template-columns: 1fr 1fr;
+    }
+    footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+    footer ul, footer p {
+        grid-column: 1/3;
+    }
+
+}
