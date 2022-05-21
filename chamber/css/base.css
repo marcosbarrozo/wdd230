@@ -43,7 +43,7 @@ main h2{
     display: flex;
 }
 .social-links-container img{
-    width: 35px;
+    width: 32px;
     margin-right: 10px;
     cursor: pointer;
     background-color: white;
@@ -171,7 +171,8 @@ footer ul li{
 main{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-areas: 'hero'
+    grid-template-areas: 'banner'
+     'hero'
                         'event'
                         'weather'
                         'news'
@@ -179,8 +180,112 @@ main{
                         'spot2';
 }
 
+/*hero style*/
 .hero{
     grid-area: hero;
+    background-image: url(../images/maceio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.hero-title{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 1.5rem;
+}
+
+.hero-cta{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: .6rem .9rem;
+    border-radius: 10px;
+    background-color: #02733E;
+    color: white;
+}
+
+.hero-cta:hover{
+    background-color: #F2294E;
+    transform: scale(1.01);
+}
+
+main div:not(:nth-child(2)){
+    padding: 1rem;
+    background-color: #bce7cd;
+    border: none;
+    box-shadow:  2px 2px 2px rgba(0,0,0,0.5);
+}
+
+main div:not(:nth-child(2)) img{
+    width: 100%;
+    height: auto;
+    margin-top: .8rem;
+    border-radius: 10px;
+}
+
+main div:not(:nth-child(2)) h2{
+    text-align: center;
+    margin-bottom: .8rem;
+    color: #19195c;
+}
+
+main div:not(:nth-child(2)) img{
+    width: 100%;
+    height: auto;
+    margin-top: .8rem;
+    border-radius: 10px;
+}
+main div:not(:nth-child(2)) p{
+    margin-top: 1rem;
+    padding: 0 .5rem;
+    text-align: center;
+}
+
+.join-btn{
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: .6rem .9rem;
+    border-radius: 10px;
+    background-color: #02733E;
+    color: white;
+}
+
+.join-btn:hover{
+    background-color: #F2294E;
+    transform: scale(1.01);
+}
+
+.banner{
+    grid-area: banner;
+    background-color:#02733ed3;
+    
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    position: relative;
+    display: none;
+}
+.banner p {
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(
+        -50%,-50%
+    );
+}
+.show-banner{
+    display: block;
 }
 .event{
     grid-area: event;
@@ -196,6 +301,10 @@ main{
 .weather{
     grid-area: weather;
 }
+.temp-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 .spotlight2{
     grid-area: spot2;
     
@@ -206,4 +315,10 @@ main{
 .spotlight3{
     grid-area: spot3;
     
+}
+
+
+.weather img{
+    width: 100%;
+    height: auto;
 }

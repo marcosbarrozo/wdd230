@@ -20,10 +20,11 @@
     .logo-container h1{
         font-size: 1.8rem;
     }
-
+    
     main{
         grid-template-columns: 50% 50%;
         grid-template-areas: 
+        'banner banner '
         'hero hero'
         'news news'
         'spot1 spot2'
