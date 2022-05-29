@@ -3,7 +3,7 @@
         font-size: 3.5rem;
     }
     main {
-        grid-template-columns: 20% 60% 20%;
+        grid-template-columns: 22.5% 55% 22.5%;
         grid-template-areas: 
         'banner banner banner'
         'event hero spot1'
