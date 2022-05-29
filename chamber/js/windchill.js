@@ -9,7 +9,7 @@ const windSpeed = parseFloat(document.querySelector("#wind-speed").innerText);
 const windChillValue = document.querySelector("#wind-chill");
 
 if(temperature <= 50 && windSpeed > 3){
-    windChillValue.innerText = windChill(temperature,windSpeed).toFixed(1);
+    windChillValue.innerText = `${windChill(temperature,windSpeed).toFixed(1)} °F` ;
 } else {
     windChillValue.innerText = "N/A";
 }
