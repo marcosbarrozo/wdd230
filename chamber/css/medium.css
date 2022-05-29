@@ -29,8 +29,10 @@
         'news news'
         'spot1 spot2'
         'join join'
-        'event weather';
+        'event weather'
+        'spot3 spot3';
     }
+    
     footer{
         grid-template-columns: 1fr 1fr;
     }
@@ -42,4 +44,4 @@
         grid-column: 1/3;
     }
 
-}
+} 
