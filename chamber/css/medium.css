@@ -32,6 +32,10 @@
         'event weather'
         'spot3 spot3';
     }
+
+    .spotlight3 img{
+        width: 50%;
+    }
     
     footer{
         grid-template-columns: 1fr 1fr;
