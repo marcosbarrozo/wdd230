@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(282deg,#82AAC4,#45EAAE);
+}
+
+h1{
+    margin-top: 1rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main img{
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 .2rem .1rem rgba(0,0,0,.5);
+}
+
+main img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+main img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
