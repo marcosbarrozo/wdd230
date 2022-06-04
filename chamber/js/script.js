@@ -16,9 +16,51 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 
 datefield.innerText = `${fulldate}`;
 
-let day = d.getDay();
+let imagesToLoad = document.querySelectorAll('img[data-src]');
+const loadImages = (image) => {
+  image.setAttribute('src', image.getAttribute('data-src'));
+  image.onload = () => {
+    image.removeAttribute('data-src');
+  };
+};
 
-let banner = document.querySelector('.banner')
-if(day == 1 || day == 2){
-    banner.classList.add("show-banner")
+
+
+if('IntersectionObserver' in window) {
+const observer = new IntersectionObserver((items, observer) => {
+    items.forEach((item) => {
+    if(item.isIntersecting) {
+        loadImages(item.target);
+        observer.unobserve(item.target);
+    }
+    });
+});
+imagesToLoad.forEach((img) => {
+    observer.observe(img);
+});
+} else {
+imagesToLoad.forEach((img) => {
+    loadImages(img);
+});
+}
+
+/*Count Visit */
+// initialize display elements
+const visits = document.querySelector(".visits-message");
+
+// get the stored value in localStorage
+let lastDate = window.localStorage.getItem("date");
+
+let actualDate = new Date().getTime();
+
+if (lastDate) {
+	visits.textContent = `Number of days: ${numberOfDays(actualDate, lastDate)} `;
+} else {
+	visits.textContent = `Welcome!`;
+}
+
+localStorage.setItem("date",actualDate);
+
+function numberOfDays(date1, date2){
+    return Math.ceil( (date1 - date2)/(1000*3600*24));
 }

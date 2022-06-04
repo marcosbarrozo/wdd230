@@ -48,4 +48,8 @@
         grid-column: 1/3;
     }
 
+    .discover-section{
+       flex-direction: row;
+    }
+
 } 

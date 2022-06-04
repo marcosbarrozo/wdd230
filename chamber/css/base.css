@@ -350,3 +350,65 @@ main div:not(:nth-child(2)) p{
     background-color: #F2294E;
     transform: scale(1.01);
 }
+
+#discover-main{
+    display: block;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.discover-section{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+.discover-section .discover-description-container{
+    width: 50%;
+}
+.discover-section picture{
+    width: 50%
+}
+
+.discover-section picture img{
+    width: 100%;
+    height: auto;
+    border-radius:  .8rem;
+    transition: all .3s ease-in;
+}
+.discover-section picture img:hover{
+    transform: scale(1.05);
+}
+
+.discover-section .discover-description-container h2{
+    text-align: center;
+    margin-bottom: .8rem;
+    color: #19195c;
+}
+
+section img{
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 .2rem .1rem rgba(0,0,0,.5);
+}
+
+section img[data-src] {
+    filter: blur(0.3em);
+    opacity: 0.5;
+  }
+  
+section img {
+   /* filter: blur(0em);
+    transition: filter 0.5s;*/
+    opacity: 1;
+    transition: opacity .3s;
+  }
+
+.visits-message{
+    text-align: center;
+    padding: 1rem 0 1rem 0
+}
