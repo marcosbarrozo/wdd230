@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  table{
+      box-shadow: .5rem .5rem .6rem rgba(0,0,0,0.5);
+      border-collapse: collapse;
+      border: 1px solid silver;
+  }
+ 
+  td,th{
+    padding: .4rem .6rem;
+    border: 1px solid silver;
+   
+}
+tr{
+    text-align: center;
+}
+
+
+  tr:first-child th{
+      background-color: #7FB9C2;
+      font-size: 1.5rem;
+  }
+  tr:nth-child(2) th{
+      background-color:#628CA6 ;
+      color: white;
+  }
+
+.black-bg{
+    background-color: #628CA6;
+    color: white;
+}
+#black-friday{
+    font-style: italic;
+}
+  tbody tr{
+      background-color: #E7F0ED;
+  }
+  tbody tr:nth-child(even){
+      background-color:  #E7FFED;
+  }
+  tfoot tr{
+      background-color: #E7F0ED;
+  }
+  tfoot tr td{
+      font-size: .7rem;
+  }
