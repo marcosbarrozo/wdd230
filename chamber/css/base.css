@@ -412,3 +412,81 @@ section img {
     text-align: center;
     padding: 1rem 0 1rem 0
 }
+
+/* Join Page*/
+
+#main_join{
+    display: block;
+}
+
+#main_join form{
+    margin: 2rem auto;
+    max-width: 600px;
+    background-color: #cccdfe;
+    padding: 1.3rem;
+    border-radius: 10px;
+    box-shadow: .3rem .3rem .5rem rgba(0,0,0,.5);
+}
+#main_join h2{
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+#main_join label{
+    padding-left: 1rem;
+}
+
+#main_join form label input{
+    display: block;
+    width: 100%;
+    padding: .5rem .6rem;
+    margin: .3rem 0;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+
+}
+#main_join form label textarea{
+    width: 100%;
+}
+#main_join form button[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    padding: .5rem .8rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
+
+#main_join form fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+#main_join form fieldset input[type="radio"]{
+    display: inline;    
+    width: fit-content;
+    margin: .5rem 0rem;
+ 
+}
+
+#main_join form label textarea{
+    border: none;
+    padding: .5rem .5rem;
+    margin-top: .5em;
+    border-radius: .3rem;
+
+}
+
+/*Thank you page*/
+#main_thankyou{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
