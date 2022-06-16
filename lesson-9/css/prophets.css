@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(72deg,#8265C5,#38A6AA);
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+header h1{
+    font-family: "Bree Serif", serif;
+    color: rgb(3, 33, 66);
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.cards section h2{
+    font-family: "Bree Serif", serif;
+    color: rgb(3, 33, 66);
+}
+
+.cards section p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: .3rem;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.cards section img{
+    width: 60%;
+    height: auto;
+    margin-top: .5rem;
+    border-radius: .5rem;
+    box-shadow: .3rem .3rem .5rem rgba(0,0,0,.5);;
+}
+
+.cards section{
+    background: #86bac7;
+    padding: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,.5);
+}
+
+footer{
+    text-align: center;
+    margin: 2rem 0;
+    color: rgb(3, 33, 66);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
