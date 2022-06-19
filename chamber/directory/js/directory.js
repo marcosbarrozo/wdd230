@@ -36,3 +36,22 @@ function displayBusiness(business) {
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('section.cards').appendChild(card);
   }
+
+  const gridbutton = document.querySelector("#grid");
+  const listbutton = document.querySelector("#list");
+  
+  
+  
+  gridbutton.addEventListener("click", () => {
+    // example using arrow function
+    cards.classList.add("grid");
+    cards.classList.remove("list");
+  });
+  
+  listbutton.addEventListener("click", showList); 
+  
+  function showList() {
+    cards.classList.add("list");
+    cards.classList.remove("grid");
+  }
+  
