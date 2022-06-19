@@ -25,6 +25,16 @@
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
 .cards section img{
     width: 60%;
     height: auto;
