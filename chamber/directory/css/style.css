@@ -1,5 +1,7 @@
 #main_directory{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #main_directory div{
@@ -54,6 +56,12 @@
     box-shadow: 0 0 .5rem rgba(0,0,0,.5);
 }
 
-.btn-container{
-    
+.btn-container button{
+
+    border: 0;
+    padding: .8rem 1.2rem;
+    background: #86bac7;
+    color: white;
+    font-weight: bolder;
+    border-radius: .5rem;
 }

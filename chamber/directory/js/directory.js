@@ -34,5 +34,5 @@ function displayBusiness(business) {
     card.appendChild(website);
     card.appendChild(portrait);
     // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('section.cards').appendChild(card);
   }
