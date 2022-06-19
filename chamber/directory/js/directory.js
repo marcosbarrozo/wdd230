@@ -8,10 +8,10 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const business = jsonObject['business'];
-    prophets.forEach(displayBusiness);
+    business.forEach(displayBusiness);
 });
 
-function displayBusiness(prophet) {
+function displayBusiness(business) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
