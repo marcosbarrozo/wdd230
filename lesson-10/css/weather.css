@@ -1,0 +1,15 @@
+body{
+    background:  linear-gradient(291deg,#33A1AE,#9A9EE0);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.weather-container{
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: .5rem .5ren .5rem rgba(0,0,0,.5);
+    width: fit-content;
+    text-align: center;
+}
