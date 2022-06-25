@@ -29,12 +29,16 @@ async function apiFetch() {
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
     const windSpeed = document.querySelector("#wind-speed");
+    const cityName = document.querySelector('#city-name');
+
+    cityName.textContent = weatherData.name;
 
     windSpeed.textContent = weatherData.wind['speed'];
 
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+
 
 
   }
