@@ -490,3 +490,7 @@ section img {
     justify-content: center;
     place-items: center;
 }
+
+.visits-message{
+    color: white;
+}

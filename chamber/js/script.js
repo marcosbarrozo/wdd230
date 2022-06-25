@@ -54,7 +54,7 @@ let lastDate = window.localStorage.getItem("date");
 let actualDate = new Date().getTime();
 
 if (lastDate) {
-	visits.textContent = `Number of days: ${numberOfDays(actualDate, lastDate)} `;
+	visits.textContent = `Last Visit: ${numberOfDays(actualDate, lastDate)} `;
 } else {
 	visits.textContent = `Welcome!`;
 }

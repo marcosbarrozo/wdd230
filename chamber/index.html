@@ -37,6 +37,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
             <p class="date">test</p>
+            <p class="visits-message"></p>
         </nav>
         
 
@@ -71,12 +72,12 @@
         <div class="weather">
             <h2>Weather</h2>
             <div class="img-temp-container">
-                <img src = "images/sun.png" alt="weather">
-                <h2 class="temp-text"><span id="temperature">50</span>°F</h2>
+                <img src = "" alt="weather" id="weather-icon">
+                <h2 class="temp-text"><span id="temperature"></span>°F</h2>
             </div>
 
-            <p>Sunny</p>
-            <p>Wind Speed: <span id="wind-speed"> 3.5 </span>mph</p>
+            <p id="condition"></p>
+            <p>Wind Speed: <span id="wind-speed"></span> mph</p>
             <p>Wind Chill: <span id="wind-chill"></span></p>
         </div>
         <div class="join">
@@ -117,6 +118,7 @@
         <p>Last Updated: <span class="last_updated"></span></p>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/whetherapi.js"></script>
     <script src="js/windchill.js"></script>
 </body>
 </html>
