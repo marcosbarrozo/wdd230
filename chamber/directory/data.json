@@ -14,7 +14,7 @@
         "phone": "+(55) 99999-99999",
         "website": "www.tomidiomas.com.br",
         "image": "tom_idiomas.png",
-        "membership": "Silve"
+        "membership": "Silver"
       },
       {
         "name": "Kids English Education",
@@ -47,6 +47,14 @@
         "website": "www.smartmind.com.br",
         "image": "smart_mind.jpg",
         "membership": "Gold"
+      },
+      {
+        "name": "Thamires Pães e Sonhos",
+        "address": "",
+        "phone": "+(55) 99999-99999",
+        "website": "www.thamirespaesesonhos.com.br",
+        "image": "thamires.png",
+        "membership": "Silver"
       }
     ]
   }
