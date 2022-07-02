@@ -329,7 +329,7 @@ main div:not(:nth-child(2)) p{
     position: absolute;
     top: 10%;
     left: 20%;
-    color: white;
+    color: #19195C;
     text-shadow: 2px 2px black;
     font-size: 1.5rem;
 }
@@ -497,5 +497,5 @@ section img {
 }
 
 .active{
-    color: #F2294E !important;
+    color: #6DCCF0 !important;
 }

@@ -52,7 +52,8 @@
     height: auto;
     margin-top: .5rem;
     border-radius: .5rem;
-    box-shadow: .3rem .3rem .5rem rgba(0,0,0,.5);;
+    border: none;
+    box-shadow: none;
 }
 
 .cards section{
@@ -65,9 +66,7 @@
     margin: .5rem;
     box-shadow: 0 0 .5rem rgba(0,0,0,.5);
 }
-.section-list{
 
-}
 #grid,#list{
     border: 0;
     padding: .8rem 1.2rem;
@@ -78,5 +77,8 @@
     border-radius: .5rem;
     cursor: pointer;
     display: inline-block;
+    width: fit-content;
+    margin: .5rem auto;
+
 }
 
