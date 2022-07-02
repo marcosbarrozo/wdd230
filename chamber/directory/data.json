@@ -55,6 +55,22 @@
         "website": "www.thamirespaesesonhos.com.br",
         "image": "thamires.png",
         "membership": "Silver"
+      },
+      {
+        "name": "Luciano Salgados",
+        "address": "",
+        "phone": "+(55) 99999-99999",
+        "website": "www.lucianosalgados.com.br",
+        "image": "luciano.png",
+        "membership": "Gold"
+      },
+      {
+        "name": "Maceió Burger",
+        "address": "",
+        "phone": "+(55) 99999-99999",
+        "website": "www.maceioburger.com.br",
+        "image": "burger.png",
+        "membership": "Silver"
       }
     ]
   }

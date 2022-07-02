@@ -42,8 +42,10 @@
 
     </header>
     <main id="main_join">
-        <h2>Join to the Maceió Chamber of Commerce</h2>
-        <form method="get" action="thankyou.html">
+        <h2>Contact Us</h2>
+        <h2>contact@chambermaceio.com</h2>
+        <h2>+(55) 99999-99999</h2>
+        <form method="get">
             <label for="first_name">
                 First Name*
                 <input type="text" name="first_name" id="first_name" required>
@@ -51,10 +53,6 @@
             <label for="last_name">
                 Last Name*
                 <input type="text" name="last_name" id="last_name"  required>
-            </label>
-            <label for="business_position">
-                Business Position
-                <input type="text" name="business_position" id="business_position" pattern="[A-Za-z\s\-]{7,}">
             </label>
             <label for="email">
                 Email*
@@ -64,39 +62,12 @@
                 Phone Number*
                 <input type="tel" name="phone" id="phone" required>
             </label>
-            <label for="business_title">
-                Business Title*
-                <input type="text" name="business_title" id="business_title" required>
-            </label>
-            <fieldset>
-                <legend>Membership</legend>
-          
-            <label for="np">
-                <input type="radio" name="membership" value="np" id="np">
-                NP Membership
-            </label>
-            <label for="bronze">
-                <input type="radio" name="membership" value="bronze" id="bronze">
-                Bronze Membership
-            </label>
-            <label for="silver">
-                <input type="radio" name="membership" value="silver" id="silver">
-                Silver Membership
-            </label>
-            <label for="gold">
-                <input type="radio" name="membership" value="gold" id="gold">
-                Gold Membership
-            </label>
-        </fieldset>
-            <label for="business_description">
-                Business Description
-                <textarea id="business_description"></textarea>
+            <label for="message">
+                Message
+                <textarea id="message"></textarea>
             </label>
             <input type="hidden" name="date">
-            <button type="submit">Join</button>
-
-
-
+            <button type="submit">Send</button>
 
         </form>
     </main>
