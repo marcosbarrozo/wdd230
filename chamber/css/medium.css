@@ -52,4 +52,7 @@
        flex-direction: row;
     }
 
+    #main_join h2{
+        font-size: 1.3rem;;
+    }
 } 

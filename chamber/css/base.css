@@ -17,7 +17,7 @@ header{
 header h1{
     font-family: 'Noto Serif', serif;
     color: white;
-}
+    }
 main h2{
     font-family: 'Noto Serif', serif;
 }
@@ -30,13 +30,14 @@ main h2{
 }
 .logo-container img{
     border-radius: 15px;
-    max-width: 90px;
+    max-width: 50px;
     width: 100%;
     height: auto;
 }
 
 .logo-container h1{
-    font-size: 1.1rem;
+    font-size: .8rem;
+    margin-left: .5rem;
 }
 
 .social-links-container{
@@ -430,14 +431,18 @@ section img {
 }
 #main_join h2{
     text-align: center;
-    margin-top: 1rem;
-
+    margin:1rem .5rem 1rem .5rem;
+    font-size: 1rem;
 }
 
 #main_join label{
     padding-left: 1rem;
 }
 
+#main_join form{
+    margin: 1rem auto;
+    width: 90%;
+}
 #main_join form label input{
     display: block;
     width: 100%;
@@ -498,4 +503,11 @@ section img {
 
 .active{
     color: #6DCCF0 !important;
+}
+
+.cards.list section{
+    flex-direction: column;
+}
+.cards.list section h2{
+   font-size: 1.2rem;
 }

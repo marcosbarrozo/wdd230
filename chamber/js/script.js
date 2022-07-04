@@ -64,3 +64,10 @@ localStorage.setItem("date",actualDate);
 function numberOfDays(date1, date2){
     return Math.ceil( (date1 - date2)/(1000*3600*24));
 }
+
+let day = d.getDay();
+
+let banner = document.querySelector('.banner')
+if(day == 1 || day == 2){
+    banner.classList.add("show-banner")
+}
