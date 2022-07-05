@@ -310,13 +310,7 @@ main div:not(:nth-child(2)) p{
 .hero{
     grid-area: hero;
     padding: 0;
-    overflow: hidden;
-    /*
-    background-image: url(../images/maceio.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    */    
+    overflow: hidden;  
     position: relative;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
@@ -403,8 +397,6 @@ section img[data-src] {
   }
   
 section img {
-   /* filter: blur(0em);
-    transition: filter 0.5s;*/
     opacity: 1;
     transition: opacity .3s;
   }
