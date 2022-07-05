@@ -26,4 +26,8 @@
     .banner p{
         font-size: 1.3rem;
     }
+
+    .cards.list section{
+        flex-direction: row;
+    }
 }
